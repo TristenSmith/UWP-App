@@ -26,5 +26,27 @@ namespace UWP_App
         {
             this.InitializeComponent();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (NameInput.Text.Trim().Length > 0)
+            {
+                NameOut.Text = NameInput.Text;
+            }
+            else
+            {
+                NameOut.Text = "ERROR";
+            }
+        }
+
+        //private async void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    MediaElement mediaElement = new MediaElement();
+        //    var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+        //    Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello, World!");
+        //    mediaElement.SetSource(stream, stream.ContentType);
+        //    mediaElement.Play();
+        //}
+
     }
 }
