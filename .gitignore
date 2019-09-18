@@ -1,10 +1,107 @@
 
-# Created by https://www.gitignore.io/api/windows,visualstudio
-# Edit at https://www.gitignore.io/?templates=windows,visualstudio
+# Created by https://www.gitignore.io/api/windows,visualstudio,visualstudiocode,openframeworks+visualstudio
+# Edit at https://www.gitignore.io/?templates=windows,visualstudio,visualstudiocode,openframeworks+visualstudio
+
+### OpenFrameworks+VisualStudio ###
+# ignore generated binaries
+# but not the data folder
+
+/bin/*
+!/bin/data/
+
+# general
+
+[Bb]uild/
+[Oo]bj/
+*.o
+[Dd]ebug*/
+[Rr]elease*/
+*.mode*
+*.app/
+*.pyc
+.svn/
+*.log
+
+# IDE files which should
+# be ignored
+
+# XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+# XCode 4
+xcuserdata
+*.xcworkspace
+
+# Code::Blocks
+*.depend
+*.layout
+
+# Visual Studio
+*.sdf
+*.opensdf
+*.suo
+*.pdb
+*.ilk
+*.aps
+ipch/
+
+# Eclipse
+.metadata
+local.properties
+.externalToolBuilders
+
+# operating system
+
+# Linux
+*~
+# KDE
+.directory
+.AppleDouble
+
+# OSX
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
+# Windows
+# Image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+# Android
+.csettings
+
+### OpenFrameworks+VisualStudio Patch ###
+.vs/
+*.ncb
+*.opendb
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
 
 ### Windows ###
 # Windows thumbnail cache files
-Thumbs.db
 Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
@@ -36,7 +133,6 @@ $RECYCLE.BIN/
 
 # User-specific files
 *.rsuser
-*.suo
 *.user
 *.userosscache
 *.sln.docstates
@@ -58,11 +154,9 @@ x86/
 [Aa][Rr][Mm]64/
 bld/
 [Bb]in/
-[Oo]bj/
 [Ll]og/
 
 # Visual Studio 2015/2017 cache/options directory
-.vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 
@@ -98,12 +192,10 @@ StyleCopReport.xml
 *_i.c
 *_p.c
 *_h.h
-*.ilk
 *.meta
 *.obj
 *.iobj
 *.pch
-*.pdb
 *.ipdb
 *.pgc
 *.pgd
@@ -115,7 +207,6 @@ StyleCopReport.xml
 *.tmp
 *.tmp_proj
 *_wpftmp.csproj
-*.log
 *.vspscc
 *.vssscc
 .builds
@@ -127,21 +218,8 @@ StyleCopReport.xml
 _Chutzpah*
 
 # Visual C++ cache files
-ipch/
-*.aps
-*.ncb
-*.opendb
-*.opensdf
-*.sdf
-*.cachefile
-*.VC.db
-*.VC.VC.opendb
 
 # Visual Studio profiler
-*.psess
-*.vsp
-*.vspx
-*.sap
 
 # Visual Studio Trace Files
 *.e2e
@@ -255,7 +333,6 @@ _pkginfo.txt
 # Others
 ClientBin/
 ~$*
-*~
 *.dbmdl
 *.dbproj.schemaview
 *.jfm
@@ -337,7 +414,6 @@ paket-files/
 
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
-*.pyc
 
 # Cake - Uncomment if you are using it
 # tools/**
@@ -379,4 +455,4 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-# End of https://www.gitignore.io/api/windows,visualstudio
+# End of https://www.gitignore.io/api/windows,visualstudio,visualstudiocode,openframeworks+visualstudio
