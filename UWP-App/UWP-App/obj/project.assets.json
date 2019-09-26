@@ -8150,28 +8150,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\trist\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Tristen\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trist\\Desktop\\GitKraken\\UWP-App\\UWP-App\\UWP-App\\UWP-App.csproj",
+      "projectUniqueName": "C:\\Users\\Tristen\\Desktop\\GitKraken\\UWP-App\\UWP-App\\UWP-App\\UWP-App.csproj",
       "projectName": "UWP-App",
-      "projectPath": "C:\\Users\\trist\\Desktop\\GitKraken\\UWP-App\\UWP-App\\UWP-App\\UWP-App.csproj",
-      "packagesPath": "C:\\Users\\trist\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\trist\\Desktop\\GitKraken\\UWP-App\\UWP-App\\UWP-App\\obj\\",
+      "projectPath": "C:\\Users\\Tristen\\Desktop\\GitKraken\\UWP-App\\UWP-App\\UWP-App\\UWP-App.csproj",
+      "packagesPath": "C:\\Users\\Tristen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tristen\\Desktop\\GitKraken\\UWP-App\\UWP-App\\UWP-App\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\trist\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Tristen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "uap10.0.17763"
